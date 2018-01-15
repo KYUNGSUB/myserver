@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+/* footer */
+#ft1 {
+	width:800px;
+	height: 60px;
+	float: left;
+	color: white;
+	font-size: 12px;
+	margin: 10px 5px;
+}
+#qrcode {
+	width: 100px;
+	height: 90px;
+	float: right;
+	margin-top: 5px;
+}

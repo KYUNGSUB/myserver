@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+.title {
+	font-size: 32px;
+}
+.input-wrap {
+	margin: 20px 0;
+}
+.input img {
+	display: inline-block;
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+.input label {
+	display: inline-block;
+	float: right;
+}
+.sign-link a {
+	font-style: normal;
+	color: #0071bf;
+	font-size: 12px;
+	cursor: auto;
+}
+.btn-wrap {
+	clear: both;
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.btn-wrap input {
+	width: 200px;
+	font-size: 14px;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+#signup-wrap {
+	width:300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.sign-up-btn {
+	width: 100%;
+	background-color: gray;
+}

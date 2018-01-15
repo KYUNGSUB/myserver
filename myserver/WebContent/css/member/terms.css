@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+.tcClass {
+	font-size: 12px;
+	line-height: 18px;
+	width: auto;
+	border: 1px solid #d9d9d9;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 150px;
+	margin: 7px 0;
+}
+.agreeChk {
+	font-size: 12px;
+}
+.btnAlignC {
+	width: 140px;
+	margin: 0 auto;
+	background-color: #2A78C3;
+	forn-size: 14px;
+	text-align: center;
+	margin-top: 40px;
+	padding: 10px;
+	border-radius: 5px 5px 5px 5px;
+}
+#btnAgree {
+	background-color: inherit;
+	color: white;
+}
+#agree12, #agree22 {
+	margin-left: 10px;
+}
+.agreeClass {
+	display: inline;
+}

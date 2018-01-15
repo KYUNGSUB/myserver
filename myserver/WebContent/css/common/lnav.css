@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.subPage {
+	display: none;
+	height: 0;
+}
+.subPage.on {
+	display: block;
+}
+.l_title {
+	background-color: #66FF66;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.l_title h2 {
+	padding: 10px;
+}
+.l_menu {
+	margin-top: 20px;
+}
+.l_menu li {
+	padding: 10px 5px;
+}
+.l_menu a {
+	color: black;
+}

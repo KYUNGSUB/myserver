@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>myserver</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  	<param-name>count_per_page</param-name>
+  	<param-value>10</param-value>
+  </context-param>
+  <context-param>
+  	<description>윈도우 OS로 구성된 서버에서 업로드 파일을 저장하는 경로</description>
+  	<param-name>window_upload_path</param-name>
+  	<param-value>D:\pds</param-value>
+  </context-param>
+  <context-param>
+  	<description>Linux OS로 구성된 서버에서 업로드 파일을 저장하는 경로</description>
+  	<param-name>linux_upload_path</param-name>
+  	<param-value>/media/usb/tomcat-server</param-value>
+  </context-param>
+  <!-- SamplePush -->
+    <context-param>
+  	<description>Firebase FCM Server Key</description>
+  	<param-name>fcm_server_key</param-name>
+  	<param-value>AAAAxdwUnMU:APA91bEYkOJsBA8bzgWR7NVwlMCYwe8CE4VQQuEgZqNE15qmSMhJAJTHFM2w9bNGA9UUlPSH_rBTbmrmgWFvZBwKquEfwv2qg1pkxUaw5FlTx_DrIBGjEaYdu4x_ak5kZMqQ-Q5SNMZx</param-value>
+  </context-param>
+  <context-param>
+  	<description>Firebase FCM Sender Id</description>
+  	<param-name>fcm_sender_id</param-name>
+  	<param-value>849800895685</param-value>
+  </context-param>
+  <!-- Classical Music
+  <context-param>
+  	<description>Firebase FCM Server Key</description>
+  	<param-name>fcm_server_key</param-name>
+  	<param-value>AAAAifdIlwM:APA91bHayqkRZTHIyuzYoMi6OZVXVA7zSjTZzkMAovyUdguPU0B4muQRTtJzATkTMYXMB1aD0a7Z5mt5A1Tux7fw8KyeovquqVxu0PpPa80Bf3_UVHsuDTiagl8GIyzGnT2_pAxNPngy</param-value>
+  </context-param>
+  <context-param>
+  	<description>Firebase FCM Sender Id</description>
+  	<param-name>fcm_sender_id</param-name>
+  	<param-value>592559249155</param-value>
+  </context-param>
+   -->
+  
+  <filter>
+    <filter-name>encodingFilter</filter-name>
+    <filter-class>com.talanton.service.myweb.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>encodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>

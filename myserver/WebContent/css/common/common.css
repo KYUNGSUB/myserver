@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	/*
+	text-decoration: none;
+	*/
+}
+html[lang^="ko"] {
+	font-family: "Nanum Gothic", "나눔 고딕", "NanumGothic", sans-serif;
+}
+header {
+	width: 980px;
+	height: 110px;
+	background-color: black;
+	margin: 0 auto;
+}
+/* content */
+#wrap {
+	width: 980px;
+	/*
+	height: 80%;
+	*/
+	margin: 0 auto;
+	margin-top: 5px;
+	min-height: 770px;
+}
+#lnav {
+	width: 178px;
+	/*
+	height: 100%;
+	margin: 0 0 5px;
+	*/
+	float:left;
+	border: 1px solid black;
+	min-height: 768px;
+}
+#content {
+	width: 758px;
+	float:right;
+	border: 1px solid black;
+	padding: 20px;
+	min-height: 728px;
+}
+footer {
+	clear: both;
+	width: 980px;
+	height: 100px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 5px;
+}

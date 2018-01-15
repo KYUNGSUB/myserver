@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/myweb" 
+		auth="Container"
+		driverClassName="com.mysql.jdbc.Driver"
+		type="javax.sql.DataSource"
+		username="jspexam"
+		password="jsppw"
+		url="jdbc:mysql://localhost:3306/myweb"
+		maxTotal="500"
+		maxIdle="100"
+		maxWaitMillis="-1"
+	/>
+</Context>
